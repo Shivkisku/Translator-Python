@@ -1,4 +1,4 @@
-from googletrans import Translator
+from googletrans  import Translator
 
 translator = Translator(service_urls=['translate.google.com'])
 text_to_translate = "Hello, how are you?"
